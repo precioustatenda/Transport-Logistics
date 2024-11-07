@@ -1,0 +1,527 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;	
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// My header section style 
+#header {
+padding: 300px;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+
+    .header-inner{
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+    }
+}
+.logo{
+  position: absolute;
+  top: 40px;
+  right: 220px;
+  width: 100px;
+  img{
+    width: 220%;
+  }
+}
+.hamburger-menu {
+   font-size: 25px; 
+   cursor: pointer; 
+   color: #fff;
+   display: none;  
+  } 
+  .menu {
+     list-style: none;
+     width: 100%;
+     text-align: left;
+      margin: 0;
+       padding-left: 60px; 
+       display: flex;
+      
+       
+       li { 
+        margin: 10px 20px;
+        display: inline-block;
+        
+         a { 
+          text-decoration: none;
+           color: #fff; 
+           font-size: 18px; }
+       
+           
+         }
+        }
+
+// this is my hero section style 
+
+
+// my hero section style ends here 
+
+
+// this is my welcome section style 
+#welcome { 
+  background-color: hwb(199 71% 0%);
+padding: 20px 0;
+   color: #000; 
+   
+.inner-div{
+       display: flex; 
+       width: 50%;
+       margin: 0 auto; 
+       justify-content: center;
+       align-items: center;
+       padding: 20px;
+       
+        h2 { 
+           font-size: 4rem; 
+           font-weight: bold; 
+           color: #000;
+           margin-bottom: 3rem; 
+          
+           p {
+             font-size: 40px; 
+             font-weight: 200; 
+             color: hwb(0 11% 88%); 
+             margin-top: 3rem; 
+             
+             .inner-image {
+              width: 50%; 
+              height: 0 auto; 
+              border-radius: 5px;
+              
+          
+           
+           .text-link {
+            font-size: 30px; 
+              color: #2a2aee; 
+              font-weight: lighter; 
+              margin-top: 3rem;   
+             
+            } 
+          } 
+        }
+      }
+    }
+    } 
+   
+// my welcome section style ends here 
+
+
+
+// my services section style 
+#services {
+    padding: 50px 0;
+    background-color: hsl(203, 84%, 88%);
+
+   color: #000;
+    text-align: center;
+
+    .services-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+     
+
+        h2 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .services-inner-cards {
+            display: flex;
+           justify-content: space-between;
+            flex-wrap: wrap;
+           
+
+            .inner-card1, .inner-card2, .inner-card3 {
+                background-color: #b6def5;
+                color: #000;
+                padding: 20px;
+                margin:   0.5rem;
+               border-radius: 10px;
+                box-shadow: #222;
+                width: 25%;
+                text-align: center;
+
+                img {
+                    width: 300px;
+                    margin-bottom: 5px;
+                }
+
+                h3 {
+                    font-size: 24px;
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}
+// my services section ends here
+
+
+// this is my blog section style 
+#blog-section {
+    .blog-inner-card {
+      background-color: #b6def5;
+      padding: 10px;
+      
+
+      img {
+       width: 300vh;
+      max-width:  1200px;
+        height: 100vh;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      }
+    }
+  }
+// my blog section style ends here 
+
+
+
+// this is my testimonial section style 
+#testimonial-section {
+    .testimonial-inner {
+      padding: 20px;
+      background-color: rgb(191, 225, 255);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+  
+      .testimonial-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        .testimonial-card-1,
+        .testimonial-card-2 {
+          background-color:  #c3e9ff;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          margin: 10px;
+          flex: 1 1 45%;
+          max-width: 45%;
+  
+          img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+          }
+  
+          h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+          }
+  
+          p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+          }
+  
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+  
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              margin-bottom: 10px;
+            }
+  
+            h4 {
+              font-size: 1.2rem;
+              margin-bottom: 5px;
+            }
+  
+            p {
+              font-size: 1rem;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+// my testimonial section style ends here 
+
+
+// this is my newsletter section style 
+#newsletter {
+    .newsletter-inner {
+      padding: 20px;
+      background-color: #c3e9ff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      h2 {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+  
+      p {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 2rem;
+      }
+  
+      .form {
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        input {
+          width: 100%;
+          max-width: 400px;
+          padding: 30px;
+          margin-bottom: 10px;
+          border: 1px solid hsl(0, 4%, 86%);
+          border-radius: 5px;
+          font-size: 1rem;
+        }
+      }
+  
+      .text-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #000;
+        color: hwb(236 85% 3%);
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+//   my newsletter section style ends here 
+
+
+
+// this is my footer section styles 
+#footer {
+    .footer-inner {
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      h6 {
+        text-align: center;
+        margin-bottom: 10px;
+  
+        img {
+          width: 100%;
+          max-width: 300px;
+          height:  auto;
+        }
+      }
+  
+      hr {
+        border: 0;
+        height: 1px;
+        background: #fff;
+        margin: 20px 0;
+      }
+  
+      .footer-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  
+        .footer-card-1,
+        .footer-card-2,
+        .footer-card-3 {
+          background-color: #333333;
+          color: #fff;
+          border-radius: 5px;
+          padding: 20px;
+          margin: 10px;
+          flex: 1 1 30%;
+          max-width: 20%;
+          h5
+{
+            font-size: 2rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+          }
+  
+          p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 10px;
+          }
+        }
+      }
+  
+      span {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #fff;
+      }
+    }
+}
+// my footer section style ends here 
+
+
